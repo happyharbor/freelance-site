@@ -11,12 +11,12 @@ export const Navigation = (props) => {
           >
             {' '}
             <span className='sr-only'>Toggle navigation</span>{' '}
-            <span className='icon-bar'></span>{' '}
-            <span className='icon-bar'></span>{' '}
-            <span className='icon-bar'></span>{' '}
+            <span className='icon-bar'/>{' '}
+            <span className='icon-bar'/>{' '}
+            <span className='icon-bar'/>{' '}
           </button>
           <a className='navbar-brand page-scroll' href='#page-top'>
-            React Landing Page
+            Enjoy Freelancing
           </a>{' '}
         </div>
 
@@ -38,11 +38,6 @@ export const Navigation = (props) => {
             <li>
               <a href='#services' className='page-scroll'>
                 Services
-              </a>
-            </li>
-            <li>
-              <a href='#portfolio' className='page-scroll'>
-                Gallery
               </a>
             </li>
             <li>

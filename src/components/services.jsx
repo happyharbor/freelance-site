@@ -5,8 +5,7 @@ export const Services = (props) => {
         <div className='section-title'>
           <h2>Our Services</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            Use our salary calculator to find out which service suits you best.
           </p>
         </div>
         <div className='row'>
@@ -14,7 +13,7 @@ export const Services = (props) => {
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className='col-md-4'>
                   {' '}
-                  <i className={d.icon}></i>
+                  <i className={d.icon}/>
                   <div className='service-desc'>
                     <h3>{d.name}</h3>
                     <p>{d.text}</p>

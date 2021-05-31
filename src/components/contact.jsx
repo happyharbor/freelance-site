@@ -20,7 +20,7 @@ export const Contact = (props) => {
     console.log(name, email, message)
     emailjs
       .sendForm(
-        'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
+        'service_tl8nu5x', 'template_7ua823l', e.target, 'user_4MKQz6KkekHBkTw5cIoHu'
       )
       .then(
         (result) => {
@@ -58,7 +58,7 @@ export const Contact = (props) => {
                         required
                         onChange={handleChange}
                       />
-                      <p className='help-block text-danger'></p>
+                      <p className='help-block text-danger'/>
                     </div>
                   </div>
                   <div className='col-md-6'>
@@ -72,23 +72,23 @@ export const Contact = (props) => {
                         required
                         onChange={handleChange}
                       />
-                      <p className='help-block text-danger'></p>
+                      <p className='help-block text-danger'/>
                     </div>
                   </div>
                 </div>
                 <div className='form-group'>
                   <textarea
-                    name='message'
-                    id='message'
-                    className='form-control'
-                    rows='4'
-                    placeholder='Message'
-                    required
-                    onChange={handleChange}
-                  ></textarea>
-                  <p className='help-block text-danger'></p>
+                      name='message'
+                      id='message'
+                      className='form-control'
+                      rows='4'
+                      placeholder='Message'
+                      required
+                      onChange={handleChange}
+                  />
+                  <p className='help-block text-danger'/>
                 </div>
-                <div id='success'></div>
+                <div id='success'/>
                 <button type='submit' className='btn btn-custom btn-lg'>
                   Send Message
                 </button>
@@ -100,7 +100,7 @@ export const Contact = (props) => {
               <h3>Contact Info</h3>
               <p>
                 <span>
-                  <i className='fa fa-map-marker'></i> Address
+                  <i className='fa fa-map-marker'/> Address
                 </span>
                 {props.data ? props.data.address : 'loading'}
               </p>
@@ -108,7 +108,7 @@ export const Contact = (props) => {
             <div className='contact-item'>
               <p>
                 <span>
-                  <i className='fa fa-phone'></i> Phone
+                  <i className='fa fa-phone'/> Phone
                 </span>{' '}
                 {props.data ? props.data.phone : 'loading'}
               </p>
@@ -116,9 +116,9 @@ export const Contact = (props) => {
             <div className='contact-item'>
               <p>
                 <span>
-                  <i className='fa fa-envelope-o'></i> Email
+                  <i className='fa fa-envelope-o'/> Email
                 </span>{' '}
-                {props.data ? props.data.email : 'loading'}
+                <a style={{color: 'rgba(255,255,255,0.75)'}} href={`mailto:${props.data ? props.data.email : 'loading'}`}>{props.data ? props.data.email : 'loading'}</a>
               </p>
             </div>
           </div>
@@ -128,17 +128,12 @@ export const Contact = (props) => {
                 <ul>
                   <li>
                     <a href={props.data ? props.data.facebook : '/'}>
-                      <i className='fa fa-facebook'></i>
+                      <i className='fa fa-facebook'/>
                     </a>
                   </li>
                   <li>
                     <a href={props.data ? props.data.twitter : '/'}>
-                      <i className='fa fa-twitter'></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.youtube : '/'}>
-                      <i className='fa fa-youtube'></i>
+                      <i className='fa fa-twitter'/>
                     </a>
                   </li>
                 </ul>
@@ -150,7 +145,7 @@ export const Contact = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2020 Issaaf Kattan React Land Page Template. Design by{' '}
+            &copy; 2021 Issaaf Kattan React Land Page Template. Design by{' '}
             <a href='http://www.templatewire.com' rel='nofollow'>
               TemplateWire
             </a>

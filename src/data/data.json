@@ -1,23 +1,23 @@
 {
     "Header": {
 
-        "title": "We are a Landing Page",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+        "title": "Care free freelancing",
+        "paragraph": "Let us take the bureaucracy out of freelancing, leaving you to focus on what you like most"
 
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "paragraph": "When we landed our first freelance job, the first things that we thought were traveling and freedom, not accounting, paying taxes, social securities and VAT. Since there was no alternative at the time, we did all the boring staff. Then magic happened; wannabe freelancers start approaching us for counseling, and most of them realized that it made more financial sense to use our services, rather than set up everything on their own. Thus happyharbor has expanded in professional services.",
         "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
+            "Pay as low tax as legally possible",
+            "No defence tax",
+            "Providence Fund",
+            "All processes are done remotely"
         ],
         "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
+            "We handle your corporate taxes",
+            "We handle your monthly invoices",
+            "We handle all the accounting",
+            "VATless purchases"
         ]
     },
     "Services": [{
@@ -54,83 +54,49 @@
 
     ],
     "Testimonials": [{
-            "img": "img/testimonials/01.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/02.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
-        },
-        {
-            "img": "img/testimonials/03.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/04.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
-        },
-        {
-            "img": "img/testimonials/05.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/06.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
+            "img": "img/testimonials/mus.png",
+            "text": "Happy harbor helped me immensely to make the transition from my old job to freelancing. The guys are eager to help and quick to analyse all the financial decisions.",
+            "name": "Mustafa Erdemlier"
         }
     ],
     "Team": [{
-            "img": "img/team/01.jpg",
-            "name": "John Doe",
+            "img": "img/team/giorgos.png",
+            "name": "Giorgos Trichopoulos",
             "job": "Director"
         },
         {
-            "img": "img/team/02.jpg",
-            "name": "Mike Doe",
-            "job": "Senior Designer"
-        }, {
-            "img": "img/team/03.jpg",
-            "name": "Jane Doe",
-            "job": "Senior Designer"
-        },
-        {
-            "img": "img/team/04.jpg",
-            "name": "Karen Doe",
-            "job": "Project Manager"
+            "img": "img/team/kathrine.jpeg",
+            "name": "Kathrine Anadipes",
+            "job": "Customer Support"
         }
     ],
     "Contact": {
-        "address": "4321 California St, San Francisco, CA 12345 ",
-        "phone": "+1 123 456 1234",
-        "email": "info@company.com",
-        "facebook": "fb.com",
-        "twitter": "twitter.com",
-        "youtube": "youtube.com"
+        "address": "Asterismon 5, 3011, Limassol, Cyprus",
+        "phone": "+30 99871407",
+        "email": "info@happyharbor.io",
+        "facebook": "https://www.facebook.com/happyharborr",
+        "twitter": "https://twitter.com/happyharborr"
     },
-    "Features": [{
-            "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
+    "Features": [
         {
             "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "Net salary calculator",
+            "text": "Use our salary calculator to find out your net salary under different setups, and find out the easy way, why you should join us."
+        },
+        {
+            "icon": "fa fa-comments-o",
+            "title": "Providence Fund",
+            "text": "Think more about the future, pay less taxes now. We have partnered with emergo wealth to provide a complete portfolio of services."
         },
         {
             "icon": "fa fa-group",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "No bureaucracy",
+            "text": "We pay your corporate tax, VAT, VIES, social securities, gesy, providence fund; we handle all invoicing and accounting."
         },
         {
             "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "Remote oriented",
+            "text": "There is no need for a physical presence at any point during our collaboration, though we will be delighted to meed you. Our mindset is remote first."
         }
     ]
 }
